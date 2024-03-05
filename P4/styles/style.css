@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    background-image: url("../img/road-autumn-forest-trees-wallpaper-12b1a2702d268edb1ae862553018f942.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Crimson Text', serif;
+
+}
+
+/*body per principal.html*/
+.background{
+    margin: 0;
+    background-image: url("../img/nature-japan-leaves-trees-wallpaper-22cbfa85923ea9d26dc618f6d156ddab.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#container{
+    margin: 0 auto;
+    width: 50em;
+    height: 60em;
+    background-color: white;
+    border-right: 3px solid #004A55;
+    border-left: 3px solid #004A55;
+    border-radius: 8px;
+}
+
+/*container para principal.html*/
+#container2{
+    margin: 0 auto;
+    width: 50em;
+    height: 60em;
+    background-color: white;
+    border-right: 3px solid #004A55;
+    border-left: 3px solid #004A55;
+    border-radius: 8px;
+}
+
+/*nav css*/
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul a {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background-color: rgba(0, 74, 85, 0.89);
+    transition: all 1s;
+}
+
+nav ul ul li {
+    display: block;
+}
+
+nav li ul {
+    display: none;
+    position: absolute;
+    background-color: #004A55;
+}
+
+nav li:hover ul {
+    display: block;
+}
+
+.title_nav{
+    background-color: #004A55;
+    color: snow;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    padding-left: 0.7em;
+}
+
+
+.texto_introductorio{
+    font-size: large;
+    padding-left: 10px;
+    margin-top: 4%;
+}
+
+/*css de imagines de imagenes*/
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: transform 0.3s ease;
+}
+
+img:active{
+        transform: scale(1.5);
+}
+
+img:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+p{
+    font-size: large;
+    padding-left: 20px;
+    margin-top: 4%;
+}
+
+.tituloseccion {
+    font-size: xx-large;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+span{
+    color: #004A55;
+}
